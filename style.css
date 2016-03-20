@@ -1,0 +1,272 @@
+/*-----global css-----*/
+html,body,div,header,section,footer,ul,li,a,ol,h1,p,img,h2,h3{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	color:#807e7c;
+	font-size:12px;
+}
+img { 
+	max-width: 100%; 
+	height: auto; 
+	width: auto\9; /* ie8 */ 
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+#wrapper{
+	border-top:1px solid #00b0f0;
+	background-color:#1f1d1b;
+	margin:0 auto;
+	overflow:hidden;
+}
+.container{
+	max-width:910px;
+	margin:0 auto;
+}
+/*--------header css----------*/
+header{
+	margin-top:1.098901098901099%;
+	background:radial-gradient(circle,#f0f0f0,#c2c0be 60%);
+	background:-webkit-radial-gradient(circle,#f0f0f0,#c2c0be 60%); /* Safari 5.1 to 6.0 */
+	background:-o-radial-gradient(circle,#f0f0f0,#c2c0be 60%); /* For Opera 11.6 to 12.0 */
+	background:-moz-radial-gradient(circle,#f0f0f0,#c2c0be 60%); /* For Firefox 3.6 to 15 */
+	position:relative;
+	overflow:hidden;
+	padding-bottom:4.395604395604396%;
+}
+#menu{
+	background:radial-gradient(circle,#e6e6e6,#b0aeac);
+	background:-webkit-radial-gradient(circle,#e6e6e6,#b0aeac); /* Safari 5.1 to 6.0 */
+	background:-o-radial-gradient(circle,#e6e6e6,#b0aeac); /* For Opera 11.6 to 12.0 */
+	background:-moz-radial-gradient(circle,#e6e6e6,#b0aeac); /* For Firefox 3.6 to 15 */
+	border-bottom:1px solid #c2c2c2;
+	overflow:hidden;
+}
+#menu ul li a{
+	float:right;
+	padding:1.648351648351648% 0 1.648351648351648% 1.648351648351648%;
+	display:inline-block;
+	font-weight:bold;
+	color:#8c8c89;
+}
+#menu ul li a:hover{
+	color:#1a1919;
+}
+li .clear{
+	float:none;
+}
+#logo{
+	position:absolute;
+	top:21.42857142857143%;
+	left:16.428571%;
+}
+#logo h1{
+	font-weight:bold;
+	font-size:32px;
+	background:linear-gradient(#292627, #211f1d);
+	background: -webkit-linear-gradient(#292627, #211f1d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#292627, #211f1d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#292627, #211f1d); /* For Firefox 3.6 to 15 */
+	/*-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;*/
+    color:#dedede;
+	border-radius:5px;
+	display:inline-block;
+	padding:0  2.197802197802198%;
+	margin-bottom:0.5494505494505495%;
+}
+#logo p{
+	color:#b0aca7;
+}
+/*--------end header css----------*/
+/*---------content css--------*/
+#content{
+	background-color:#c2c0be;
+	overflow:hidden;
+	position:relative;
+	border-bottom: 2px solid #a19f9d;
+	padding-bottom:5.494505494505495%;
+}
+#content #featuredImg{
+	position:absolute;
+	right:16.19%;
+}
+#bannerDiv{
+	background:linear-gradient(#ebebeb,#ffffff);
+	background: -webkit-linear-gradient(#ebebeb, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ebebeb, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ebebeb, #ffffff); /* For Firefox 3.6 to 15 */
+	padding:2.825%;
+	border:1px ridge #fff;
+	outline:1px solid  #a1a19f;
+	overflow:hidden;
+	margin-bottom:1.098901098901099%;
+	
+}
+#leftBannerDiv{
+	border:5px double #b3b3b3;
+	float:left;
+	background-color:#cfcfcf;
+	margin-right:2.747252747252747%;
+}
+#rightBannerDiv{
+	float:left;
+	width:45%;
+	padding-top:4.395604395604396%;
+}
+#rightBannerDiv h2{
+	font-weight:800;
+	font-size:2.85em;
+	color:#171717;
+	
+}
+#rightBannerDiv p{
+	margin-bottom:3.296703296703297%;
+}
+#rightBannerDiv #blackbtn{
+	display:inline-block;
+	padding:1.098901098901099%;
+	background:linear-gradient(#363633,#30302e);
+	background: -webkit-linear-gradient(#363633, #30302e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#363633, #30302e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#363633, #30302e); /* For Firefox 3.6 to 15 */
+	color:#fafafa;
+	float:right;
+	margin-top:13.824176%;
+}
+.blue{
+	color:#007be0;
+}
+#contentDiv{
+	overflow:hidden;
+}
+#leftContentDiv{
+	margin-right:1.098901098901099%;
+	width:63.18681318681319%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+#leftContentDiv #recentProject{
+	position:absolute;
+	right:0.15%;
+}
+.leftContentDivTile{
+	background-color:#e0dfde;
+	background-color:linear-gradient(left,#dedddc,#e0dfde);
+	padding:2.197802197802198%;
+	margin-bottom:1.098901098901099%;
+	border:1px solid #fff;
+	outline:1px solid #a19f9d;
+	overflow:hidden;
+}
+.leftContentDivTile img{
+	float:left;
+	margin-right:1.648351648351648%;
+}
+.leftContentDivTilePara{
+	width:51.065934%;
+	float:left;
+	padding:1.648351648351648% 0;
+}
+.leftContentDivTilePara h3{
+	color:#171513;
+	/*text-shadow: 1px 1px 1px rgba(117, 110, 110, 0.9);*/
+}
+#rightContentDiv{
+	width:35.16483516483516%;
+	float:left;
+}
+#rightContentDiv h3{
+	font-weight:800px;
+	font-size:2.84em;
+	margin-bottom:2.747252747252747%;
+	background: -webkit-linear-gradient(top, #faf9f7, #e0e0e0);
+	background: linear-gradient(top, #faf9f7, #e0e0e0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-shadow:1px #adaba7;
+}
+#rightContentDiv p{
+	margin-bottom:2.747252747252747%;
+	line-height:1.5em;
+}
+/*---------end content css--------*/
+/*---------footer css--------*/
+footer{
+	color:#d9d9d9;
+	padding:2.747252747252747% 0 5.494505494505495% 0;
+	overflow:hidden;
+}
+footer h3{
+	font-size:1em;
+	text-transform: uppercase;
+	margin-bottom:2.197802197802198%;
+}
+#footerDescription,#footerLinks{
+	margin-right:4.395604395604396%;
+}
+#footerDescription{
+	width:46.15384615384615%;
+	float:left;
+}
+#footerLinks{
+	width:14.83516483516484%;
+	float:left;
+}
+#footerRss{
+	width:20.65934065934066%;
+	float:left;
+}
+
+/*---------service.html css----------*/
+#leftServiceContent{
+	width:67.03296703296703%;
+	padding:4.395604395604396%;
+	border:1px solid #fff;
+	outline:1px solid #babab8;
+	background:linear-gradient(#ebebeb,#ffffff 90%);
+	height:782px;
+	float:left;
+	position:relative;
+}
+#leftServiceContent p{
+	margin-bottom:3.296703296703297%;
+}
+#rightServiceContent{
+	border:1px solid #fff;
+	outline:1px solid #babab8;
+	padding:2.747252747252747% 1.648351648351648%;
+	background-color:#e3dedd;
+	float:left;
+	width:20.175824%;
+	height:390px;
+	margin-top:1.648351648351648%;
+}
+#leftServiceContent h3{
+	margin-bottom:3.296703296703297%;
+}
+#navigation{
+	position:absolute;
+	top:1.248351648351648%;
+	right:16.4595604%;
+}
+#rightServiceContent h3,#leftServiceContent h3{
+	color:#171714;
+	font-size:2.5em;
+}
+#rightServiceContent ul {
+	margin: 2.747252747252747% 0;	
+}
+#rightServiceContent li a {
+	color:#7d7b79;
+}
+#rightServiceContent li a:active{
+	color:#007be0;
+}
